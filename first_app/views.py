@@ -7,3 +7,5 @@ def catalog(request):
     return HttpResponse("Here is catalog")
 def users(request):
     return HttpResponse("Here is users")
+def news(request):
+    return HttpResponse("Some news")
